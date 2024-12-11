@@ -1,0 +1,37 @@
+.navtextcontainer {
+  margin-right: 1080px;
+}
+.navtext{
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  color: #333;
+}
+.codeBlock {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  border-radius: 8px;
+  font-size: 14px;
+  overflow-x: auto;
+  line-height: 1.5;
+  box-sizing: content-box;
+  width: 50%;
+  padding:  5px;
+}
+
+.center {
+  position: absolute;
+  padding: 20px;
+  top: 20%;
+  left: 20%;
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  border-radius: 8px;
+}
+
+.pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

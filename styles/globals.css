@@ -40,3 +40,32 @@ a {
     color-scheme: dark;
   }
 }
+
+/* :root {
+  --df-messenger-font-color: red !important;
+  .title {
+    color: red) !important; 
+    font-weight: bold !important; 
+  }
+} */
+
+nav{
+  margin: 10px auto;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+nav a{
+  color: darkblue;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 16px;
+  padding: 10px;
+}
+nav a:hover{
+  color: orange;
+}
