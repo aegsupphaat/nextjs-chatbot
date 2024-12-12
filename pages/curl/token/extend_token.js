@@ -1,7 +1,10 @@
+import NavbarCurl from "@/components/NavbarCurl";
 import styles from "@/styles/Menu.module.css";
 
 export default function revoke(){
     return(
+        <div>
+            <NavbarCurl/>
         <div className={styles.center}>
             <pre className={styles.pre}> 
                 {`curl --location 'https://identity-internal-api.trueid-preprod.net/identity/v4/oauth2/extend' \\
@@ -10,6 +13,7 @@ export default function revoke(){
 --header 'client_secret: xxxxx' \\
 --form 'access_token="xxxxx"'`}
             </pre>
+        </div>
         </div>
     )
 }

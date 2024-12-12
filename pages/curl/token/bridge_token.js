@@ -1,7 +1,10 @@
+import NavbarCurl from "@/components/NavbarCurl";
 import styles from "@/styles/Menu.module.css";
 
 export default function revoke(){
     return(
+        <div>
+            <NavbarCurl/>
         <div className={styles.center}>
             <pre className={styles.pre}> 
                 {`curl --location 'https://iam.trueid-preprod.net/identity/v4/oauth2/token' \\
@@ -17,6 +20,7 @@ export default function revoke(){
 "request_uri":["wemall.com"]
 }'`}
             </pre>
+        </div>
         </div>
     )
 }

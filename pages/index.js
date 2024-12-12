@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import styles from "@/styles/Home.module.css";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";
+import Accordion from "@/components/Accordion";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
         <title>Docs Portal</title>
         <meta name="keywords" content="docs"></meta>
       </Head>
+
+      <Navbar/>
+      <Accordion/>
     </>
   );
 }

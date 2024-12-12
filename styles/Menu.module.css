@@ -9,6 +9,18 @@
   margin-top: 4px;
   color: #333;
 }
+
+.navcurltextcontainer {
+  margin-right: 1220px;
+}
+.navcurltext{
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  color: #333;
+}
 .codeBlock {
   background-color: #2d2d2d;
   color: #f8f8f2;
